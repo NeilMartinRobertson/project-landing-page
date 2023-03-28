@@ -21,7 +21,7 @@ a {
   justify-content: space-between;
 }
 
-ul {
+.header-links {
   list-style: none;
   color: #fff;
   display: flex;
