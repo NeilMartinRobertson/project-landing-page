@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
-.navbar
- {
+body {
   background-color: #1f2937;
-   padding: 20px 300px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px 300px;
+}
+.navbar {
+  background-color: #1f2937;
 }
 
 a {
@@ -27,9 +30,40 @@ a {
   color: #fff;
   display: flex;
   gap: 10px;
+  margin-left: 20px;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  margin-right: 20px;
 }
+/* Header CSS */
+.header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  margin-top: 100px;
+}
+.header h1 {
+  margin: 10px 0;
+  margin-right: 300px;
+}
+.header .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .sign-up {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+}
+
