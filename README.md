@@ -32,3 +32,6 @@ What I Liked About The Project:
 <br>
 <br>
 I really liked being let loose by myself. For the longest time I was always stuck in tutorial hell where I wasn't really learning anything just following along but being let loose by myself to learn Flexbox was hard but fun. I know feel like I got a good solid understanding of Flexbox.
+<br>
+<br>
+Live Preview At: https://neilmartinrobertson.github.io/project-landing-page/
