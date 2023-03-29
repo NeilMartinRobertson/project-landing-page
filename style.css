@@ -77,12 +77,13 @@ a {
   border-radius: 25px;
   width: 150px;
   height: 50px;
+  margin-top: 25px;
 }
 
 .header img {
   max-width: 400px;
 }
-
+/*Images Section CSS */
 .images {
   background-color: #f9faf8;
   margin-top: 100px;
@@ -117,6 +118,7 @@ a {
   text-align: center;
   padding: 50px 0;
 }
+/*Quote Section CSS */
 
 .quote {
   background-color: #e5e7eb;
@@ -126,12 +128,17 @@ a {
   color: #1f2937;
 }
 
+.quote q {
+  margin-left: 250px;
+}
+
 .quote h2 {
   text-align: end;
   font-size: 30px;
   margin-right: 5%;
 }
 
+/*Sign Up Section */
 .call-to-action {
   padding: 100px 300px;
   background-color: #f9faf8;
@@ -169,7 +176,7 @@ a {
   font-size: 20px;
   font-weight: bold;
 }
-
+/*Footer Section */
 footer {
   padding: 0 300px;
   text-align: center;
