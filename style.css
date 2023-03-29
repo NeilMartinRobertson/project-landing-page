@@ -7,10 +7,10 @@
 body {
   background-color: #1f2937;
   font-family: "Courier New", Courier, monospace;
-  padding: 20px 300px;
 }
 .navbar {
   background-color: #1f2937;
+  padding: 20px 300px;
 }
 
 a {
@@ -48,6 +48,7 @@ a {
   flex-flow: wrap;
   align-items: center;
   margin-top: 100px;
+  padding: 20px 100px;
 }
 .header h1 {
   margin: 10px 0;
@@ -67,3 +68,39 @@ a {
   height: 50px;
 }
 
+.header img {
+  max-width: 600px;
+}
+
+.images {
+  background-color: #f9faf8;
+  margin-top: 100px;
+}
+.images h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 50px;
+}
+.images .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 300px;
+  justify-content: center;
+}
+
+.image-frame {
+  border-radius: 25px;
+  border: 5px solid #3882f6;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  margin: 0 25px;
+}
+
+.images .subtext {
+  font-size: 18px;
+  margin-top: 25px;
+  text-align: center;
+}
