@@ -51,7 +51,7 @@ a {
 }
 /* Header CSS */
 .header {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bolder;
   color: #f9faf8;
   background-color: #1f2937;
@@ -80,7 +80,7 @@ a {
 }
 
 .header img {
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .images {
