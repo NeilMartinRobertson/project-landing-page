@@ -33,6 +33,15 @@ a {
   margin-left: 20px;
 }
 
+.header-links li {
+  border-right: 5px solid #3882f6;
+  padding: 0 10px;
+}
+
+.header-links li:last-child {
+  border: none;
+}
+
 .logo {
   font-size: 24px;
   color: #f9faf8;
@@ -75,6 +84,7 @@ a {
 .images {
   background-color: #f9faf8;
   margin-top: 100px;
+  padding-bottom: 50px;
 }
 .images h1 {
   font-size: 36px;
@@ -103,4 +113,71 @@ a {
   font-size: 18px;
   margin-top: 25px;
   text-align: center;
+  padding: 50px 0;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote h2 {
+  text-align: end;
+  font-size: 30px;
+  margin-right: 5%;
+}
+
+.call-to-action {
+  padding: 100px 300px;
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action .container {
+  height: 125px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 2;
+  color: #e5e7eb;
+  font-size: 24px;
+  padding: 100px;
+}
+
+.text {
+}
+
+.text h2 {
+margin-bottom: 10px;
+}
+.call-to-action-button {
+  align-self: flex-end;
+  border: 3px solid #e5e7eb;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  margin: 0 10%;
+  color: #e5e7eb;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 0 300px;
+  text-align: center;
+  margin: 25px 0;
+  color: #e5e7eb;
+  font-size: 24px;
+}
+
+
