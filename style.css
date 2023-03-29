@@ -152,11 +152,8 @@ a {
   padding: 100px;
 }
 
-.text {
-}
-
 .text h2 {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .call-to-action-button {
   align-self: flex-end;
@@ -166,7 +163,7 @@ margin-bottom: 10px;
   border-radius: 15px;
   width: 150px;
   height: 50px;
-  margin: 0 10%;
+
   color: #e5e7eb;
   font-size: 20px;
   font-weight: bold;
@@ -179,5 +176,3 @@ footer {
   color: #e5e7eb;
   font-size: 24px;
 }
-
-
